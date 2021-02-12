@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+<title>Home</title>
+{% endblock %}
+
+{% block body %} 
+<h1>Home Page</h1>
+</br>
+<main role="main">
+    <div class="jumbotron">
+      <div class="col-sm-8 mx-auto">
+        <h1>Welcome!</h1>
+        <p>Welcome to my blog, enjoy talking about whet you want...</p>
+        <br>
+        <p>
+          <a class="btn btn-primary" href="/posts/login" role="button" method="GET">Login &raquo;</a>
+        </p>
+        <a class="btn btn-primary" href="/posts/signUp" role="button" method="POST">Sign Up &raquo;</a>
+      </div>
+    </div>
+  </main>
+{% endblock %}

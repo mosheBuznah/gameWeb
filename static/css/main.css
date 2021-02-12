@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+}
+
+.container-1 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button1 {width: 250px;}
